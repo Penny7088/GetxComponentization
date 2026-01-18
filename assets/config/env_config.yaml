@@ -1,0 +1,30 @@
+# 环境配置文件
+environments:
+  test:
+    name: "测试环境"
+    http_host: "api-test.t-pro.vip"
+    ws_host: "api-test.t-pro.vip"
+    timeout: 60
+    debug: true
+    design_width: 375
+    design_height: 667
+    web_design_width: 1440
+    web_design_height: 900
+    api_prefix: "/api/v1"
+    cdn_url: "https://test-oss.t-pro.vip"
+  
+  production:
+    name: "生产环境"
+    http_host: "node.tmaxkks.xyz"
+    ws_host: "node.tmaxkks.xyz"
+    timeout: 60
+    debug: false
+    design_width: 375
+    design_height: 667
+    web_design_width: 1440
+    web_design_height: 900
+    api_prefix: "/api/v1"
+    cdn_url: "https://oss.tmaxkks.xyz"
+
+# 默认环境
+default_environment: "production"

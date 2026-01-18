@@ -1,0 +1,49 @@
+name: lib_uikit
+description: UI Kit for Flutter Bit Beat
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lib_base:
+    path: ../lib_base
+  flutter_screenutil: ^5.9.1
+  auto_size_text: ^3.0.0
+  flutter_svg: ^2.2.3
+  lottie: ^3.1.2
+  animated_text_kit: 4.2.2
+  easy_refresh: ^3.4.0
+  flutter_slidable: ^4.0.3
+  shimmer: ^3.0.0
+  fl_chart: ^0.68.0
+  extended_image: ^8.2.0
+  pinput: ^6.0.1
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/light/
+    - assets/images/dark/
+    - assets/images/svg/common/
+    - assets/images/svg/light/
+    - assets/images/svg/dark/
+  fonts:
+    - family: Readex Pro
+      fonts:
+        - asset: assets/fonts/ReadexPro-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/ReadexPro-Light.ttf
+          weight: 300
+        - asset: assets/fonts/ReadexPro-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ReadexPro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ReadexPro-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ReadexPro-Bold.ttf
+          weight: 700
+

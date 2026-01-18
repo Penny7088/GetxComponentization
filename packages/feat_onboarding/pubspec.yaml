@@ -1,0 +1,26 @@
+name: feat_onboarding
+description: Onboarding feature for Flutter Bit Beat
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.3
+  lib_base:
+    path: ../lib_base
+  lib_uikit:
+    path: ../lib_uikit
+  service_router:
+    path: ../service_router
+  service_core:
+    path: ../service_core
+  smooth_page_indicator: ^1.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/onboarding/

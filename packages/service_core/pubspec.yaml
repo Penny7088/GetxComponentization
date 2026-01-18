@@ -1,0 +1,23 @@
+name: service_core
+description: Core feature module for global business logic and state management
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  
+  # Internal dependencies
+  lib_base:
+    path: ../lib_base
+  service_router:
+    path: ../service_router
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

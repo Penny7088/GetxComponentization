@@ -1,0 +1,12 @@
+name: service_router
+description: Router service for Flutter Bit Beat
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.3

@@ -1,0 +1,31 @@
+name: flutter_bit_beat
+repository: https://github.com/yourusername/flutter_bit_beat
+
+packages:
+  - packages/*
+
+command:
+  bootstrap:
+    # 可以在这里配置 bootstrap 的行为，例如是否运行 pub get
+    runPubGetInParallel: false
+
+scripts:
+  analyze:
+    run: melos exec -- flutter analyze .
+    description: Run `flutter analyze` in all packages.
+
+  format:
+    run: melos exec -- dart format .
+    description: Run `dart format` in all packages.
+
+  clean:
+    run: melos exec -- flutter clean
+    description: Run `flutter clean` in all packages.
+
+  pub:get:
+    run: melos exec -- flutter pub get
+    description: Run `flutter pub get` in all packages.
+  
+  test:
+    run: melos exec --dir-exists="test" -- flutter test
+    description: Run `flutter test` for packages that have a test directory.

@@ -1,0 +1,50 @@
+name: flutter_bit_beat
+description: "Bit Beat"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.7.3
+  auto_size_text: ^3.0.0
+  yaml: ^3.1.3
+  connectivity_plus: ^7.0.0
+
+  lib_base:
+    path: packages/lib_base
+  lib_uikit:
+    path: packages/lib_uikit
+  service_router:
+    path: packages/service_router
+  service_core:
+    path: packages/service_core
+  feat_splash:
+    path: packages/feat_splash
+  feat_onboarding:
+    path: packages/feat_onboarding
+  feat_main:
+    path: packages/feat_main
+  feat_ui_sample:
+    path: packages/feat_ui_sample
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  melos: ^6.3.1
+
+dependency_overrides:
+  vector_math: 2.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config/env_config.yaml
+

@@ -1,0 +1,48 @@
+const Map<String, String> enUS = {
+  'title': 'Flutter Demo Home Page',
+  'theme_switcher': 'Theme Switcher',
+  'light': 'Light',
+  'dark': 'Dark',
+  'system': 'System',
+  'heading': 'Heading 32/38 Bold',
+  'large_bold': 'large Bold - 18/20 Medium',
+  'large': 'large - 18/20 Regular',
+  'medium_bold': 'Medium Bold - 16/18 Medium',
+  'medium': 'Medium - 16/18 Regular',
+  'small_bold': 'Small Bold - 14/16 Medium',
+  'small': 'Small - 14/16 Regular',
+  'x_small_bold': 'xSmall Bold - 12/14 Medium',
+  'x_small': 'xSmall - 12/14 Regular',
+  'click_count': 'You clicked @count times',
+  'home': 'Home',
+  'trade': 'Trade',
+  'market': 'Market',
+  'favorites': 'Favorites',
+  'wallet': 'Wallet',
+
+  // Common Actions
+  'confirm': 'Confirm',
+  'cancel': 'Cancel',
+  'save': 'Save',
+  'delete': 'Delete',
+  'edit': 'Edit',
+  'submit': 'Submit',
+  'next': 'Next',
+  'back': 'Back',
+  'skip': 'Skip',
+  'close': 'Close',
+  'search': 'Search',
+
+  // Common Status
+  'success': 'Success',
+  'error': 'Error',
+  'warning': 'Warning',
+  'info': 'Info',
+  'loading': 'Loading...',
+  'no_data': 'No Data',
+
+  // Network
+  'network_error': 'Network error, please try again later',
+  'connection_timeout': 'Connection timeout',
+  'unknown_error': 'Unknown error',
+};

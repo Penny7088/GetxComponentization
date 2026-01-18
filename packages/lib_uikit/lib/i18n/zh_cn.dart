@@ -1,0 +1,48 @@
+const Map<String, String> zhCN = {
+  'title': 'Flutter 演示主页',
+  'theme_switcher': '主题切换',
+  'light': '浅色',
+  'dark': '深色',
+  'system': '跟随系统',
+  'heading': '标题 32/38 粗体',
+  'large_bold': '大号粗体 - 18/20 中等',
+  'large': '大号 - 18/20 常规',
+  'medium_bold': '中号粗体 - 16/18 中等',
+  'medium': '中号 - 16/18 常规',
+  'small_bold': '小号粗体 - 14/16 中等',
+  'small': '小号 - 14/16 常规',
+  'x_small_bold': '超小号粗体 - 12/14 中等',
+  'x_small': '超小号 - 12/14 常规',
+  'click_count': '你点击了 @count 次',
+  'home': '首页',
+  'trade': '交易',
+  'market': '行情',
+  'favorites': '自选',
+  'wallet': '钱包',
+
+  // Common Actions
+  'confirm': '确认',
+  'cancel': '取消',
+  'save': '保存',
+  'delete': '删除',
+  'edit': '编辑',
+  'submit': '提交',
+  'next': '下一步',
+  'back': '返回',
+  'skip': '跳过',
+  'close': '关闭',
+  'search': '搜索',
+
+  // Common Status
+  'success': '成功',
+  'error': '错误',
+  'warning': '警告',
+  'info': '提示',
+  'loading': '加载中...',
+  'no_data': '暂无数据',
+
+  // Network
+  'network_error': '网络错误，请稍后重试',
+  'connection_timeout': '连接超时',
+  'unknown_error': '未知错误',
+};

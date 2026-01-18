@@ -1,0 +1,10 @@
+# melos_managed_dependency_overrides: lib_base,lib_uikit,service_core,service_router
+dependency_overrides:
+  lib_base:
+    path: ../lib_base
+  lib_uikit:
+    path: ../lib_uikit
+  service_core:
+    path: ../service_core
+  service_router:
+    path: ../service_router

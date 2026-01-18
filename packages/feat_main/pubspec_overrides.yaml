@@ -1,0 +1,20 @@
+# melos_managed_dependency_overrides: feat_favorites,feat_home,feat_market,feat_trade,feat_wallet,lib_base,lib_uikit,service_core,service_router
+dependency_overrides:
+  feat_favorites:
+    path: ../feat_favorites
+  feat_home:
+    path: ../feat_home
+  feat_market:
+    path: ../feat_market
+  feat_trade:
+    path: ../feat_trade
+  feat_wallet:
+    path: ../feat_wallet
+  lib_base:
+    path: ../lib_base
+  lib_uikit:
+    path: ../lib_uikit
+  service_core:
+    path: ../service_core
+  service_router:
+    path: ../service_router
